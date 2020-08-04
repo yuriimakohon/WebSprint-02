@@ -27,11 +27,17 @@ function heroGen() {
     } else {
       heroName += "man";
     }
-  } else {
+  } else if (gender =="female") {
     if (age < 18) {
       heroName += "girl";
     } else {
       heroName += "woman";
+    }
+  } else {
+    if (age < 18) {
+      heroName += "kid";
+    } else {
+      heroName += "hero";
     }
   }
   return `The superhero name is: ${heroName}!`;
