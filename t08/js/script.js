@@ -6,7 +6,7 @@ if (num == 1) {
 } else if (num == 2) {
   result = (num - num) / 0;
 } else if (num == 3) {
-  result = 0 / Infinity;
+  result = 0 * Infinity;
 } else if (num == 4) {
   result = (num * 40000000) == Infinity;
 } else {
